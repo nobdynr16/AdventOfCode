@@ -9,7 +9,6 @@ def partOne(data):
         if not line:
             break
         elif len(line.strip()) == 0:
-            #elfNmbr += 1
             if(tempCalories > mostCalories):
                 mostCalories = tempCalories
             tempCalories = 0
