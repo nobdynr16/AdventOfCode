@@ -32,7 +32,8 @@ def partTwo(data):
             tempCal = 0
         else:
             tempCal += int(line)
-
+            
+    data.close()
     print("the sum of the calories of the three elves with the most amount of calories is ", sum(topCal))
 
 partTwo(data)

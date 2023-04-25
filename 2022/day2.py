@@ -47,11 +47,10 @@ def partTwo():
                 points += 6
                 add = pointMap.get(row[0]) + 1 
 
-            #print("add: ", add)
+                
             if add > 3:
                 add -= 3
             points += add
-            #print(points)
 
     print("my total score is ", points)
 
